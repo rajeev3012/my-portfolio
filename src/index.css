@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --neon-blue: 62 184 255;
+    --neon-purple: 149 62 255;
+  }
+
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-[rgb(var(--neon-blue))] to-[rgb(var(--neon-purple))] bg-clip-text text-transparent;
+  }
+
+  .card {
+    @apply rounded-xl bg-gray-800/50 p-6 backdrop-blur-sm transition-all duration-300 hover:bg-gray-800/70;
+  }
+
+  .terminal {
+    @apply rounded-lg bg-gray-900 p-4 font-mono text-sm;
+  }
+
+  .skill-icon {
+    @apply flex h-16 w-16 items-center justify-center rounded-lg bg-gray-800 p-3 transition-all duration-300 hover:scale-110 hover:bg-gray-700;
+  }
+}
