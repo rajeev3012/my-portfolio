@@ -218,7 +218,7 @@ function App() {
           >
             <div className="mb-8 overflow-hidden rounded-full inline-block">
               <img
-                src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&h=400&fit=crop"
+                src="/images/pp.jpg"
                 alt="Profile"
                 className="w-40 h-40 object-cover rounded-full border-4 border-[rgb(var(--neon-blue))]"
               />
@@ -257,7 +257,7 @@ function App() {
               />
             </div>
 
-            <div className="flex justify-center gap-6">
+            <div className="flex justify-center gap-6 relative z-10">
               <a 
                 href="https://github.com/rajeev3012" 
                 target="_blank" 

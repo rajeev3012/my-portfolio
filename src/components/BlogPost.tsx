@@ -44,7 +44,7 @@ export function BlogPost({
       <div className="flex items-center justify-between mb-8">
         <div className="flex items-center gap-3">
           <img
-            src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&h=400&fit=crop"
+            src="/images/pp.jpg"
             alt={author}
             className="w-10 h-10 rounded-full"
           />
