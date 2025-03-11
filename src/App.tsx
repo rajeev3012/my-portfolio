@@ -244,11 +244,11 @@ function App() {
               <TypeAnimation
                 sequence={[
                   '> Automating the future...',
-                  1000,
+                  2000,
                   '> Building reliable systems...',
-                  1000,
+                  2000,
                   '> Scaling infrastructure...',
-                  1000,
+                  2000,
                 ]}
                 repeat={Infinity}
                 className="text-[rgb(var(--neon-blue))]"
