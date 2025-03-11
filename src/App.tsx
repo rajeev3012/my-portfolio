@@ -181,17 +181,15 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-900">
-      {/* Home Button */}
-      <button
-        onClick={scrollToTop}
-        className="fixed top-4 left-4 z-50 p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
-      >
-        <Home className="w-5 h-5" />
-      </button>
-
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900/80 backdrop-blur-sm border-b border-gray-800">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 flex justify-between items-center">
+          <button
+            onClick={scrollToTop}
+            className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
+          >
+            <Home className="w-5 h-5" />
+          </button>
           <div className="flex justify-center py-4 space-x-2 md:space-x-6">
             <NavLink href="#about" onClick={() => scrollToSection(aboutRef)}>About Me</NavLink>
             <NavLink href="#skills" onClick={() => scrollToSection(skillsRef)}>Skills</NavLink>
