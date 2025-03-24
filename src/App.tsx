@@ -60,22 +60,28 @@ const projects = [
 
 const certifications = [
   {
-    name: 'Microsoft Certified: Azure Fundamentals',
+    name: 'Cisco Certified Network Associate (CCNA 200-301)',
+    issuer: 'Cisco',
+    date: '2021',
+    image: '/images/ccna.png',
+  },
+  {
+    name: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
     issuer: 'Microsoft',
     date: '2021',
     image: '/images/az900.jpg',
   },
   {
-    name: 'Microsoft Certified: Azure Administrator Associate',
+    name: 'Microsoft Certified: Azure Administrator Associate (AZ-104)',
     issuer: 'Microsoft',
     date: '2022',
     image: '/images/az104.png',
   },
   {
-    name: 'Cisco Certified Network Associate (CCNA)',
-    issuer: 'Cisco',
-    date: '2021',
-    image: '/images/ccna.png',
+    name: 'Kubernetes for the Absolute Beginners - Hands-on Tutorial',
+    issuer: 'KodeKloud',
+    date: '2025',
+    image: '/images/k8s-cert.jpg',
   },
 ];
 
